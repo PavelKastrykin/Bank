@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bnc:bank xmlns:bnc="http://www.pavel.com/bank">
+    <account IBAN = "US29 NWBK 6016 1331 9268 19" >
+        <name>Bank of America</name>
+        <country>USA</country>
+        <type>deposit</type>
+        <depositor>Michael Douglas</depositor>
+        <accountID>1325468749562</accountID>
+        <amount>10000000</amount>
+        <annualProfit>5</annualProfit>
+        <term>20</term>
+    </account>
+    <account IBAN = "DE89 3704 0044 0532 0130 00" >
+        <name>Commerzbank</name>
+        <country>Germany</country>
+        <type>demand</type>
+        <depositor>Hansi Kuersch</depositor>
+        <accountID>1523654785921</accountID>
+        <amount>250000</amount>
+        <annualProfit>4.5</annualProfit>
+        <term>7</term>
+    </account>
+    <account IBAN = "KZ75 125K ZT10 0130 0335" >
+        <name>KAZKOM</name>
+        <country>Kazakhstan</country>
+        <type>checking</type>
+        <depositor>Rustam Nabirov</depositor>
+        <accountID>3251489647513</accountID>
+        <amount>7500000</amount>
+        <annualProfit>13</annualProfit>
+        <term>12</term>
+    </account>
+    <account IBAN = "NL91 ABNA 0417 1643 00" >
+        <name>ABN AMRO</name>
+        <country>Netherlands</country>
+        <type>saving</type>
+        <depositor>Floor Jansen</depositor>
+        <accountID>1532486985217</accountID>
+        <amount>50000</amount>
+        <annualProfit>8</annualProfit>
+        <term>5</term>
+    </account>
+    <account IBAN = "UA85 3996 2200 0000 0260 0123 3566 1" >
+        <name>Privatbank</name>
+        <country>Ukraine</country>
+        <type>accumulating</type>
+        <depositor>Piotr Poroshenko</depositor>
+        <accountID>2564895214783</accountID>
+        <amount>173000</amount>
+        <annualProfit>22</annualProfit>
+        <term>3</term>
+    </account>
+    <account IBAN = "SE45 5000 0000 0583 9825 7466" >
+        <name>Swedbank</name>
+        <country>Sweden</country>
+        <type>metal</type>
+        <depositor>Bjorn Borg</depositor>
+        <accountID>1356954785236</accountID>
+        <amount>330000</amount>
+        <annualProfit>7.5</annualProfit>
+        <term>16</term>
+    </account>
+</bnc:bank>
