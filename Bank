@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"  encoding="UTF-8"?>
 <bnc:bank xmlns:bnc="http://www.pavel.com/bank">
     <account IBAN = "US29 NWBK 6016 1331 9268 19" >
         <name>Bank of America</name>
