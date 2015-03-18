@@ -1,0 +1,25 @@
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.pavel.com/bank"
+        xmlns:bnc="http://www.pavel.com/bank">
+
+    <element name="nameOfBank" type="integer">
+        <complexType>
+        </complexType>
+    </element>
+
+    <complexType name="accountType">
+        <sequence>
+            <element ref="bnc:nameOfBank" />
+        </sequence>
+    </complexType>
+
+    <element name="bank">
+        <complexType>
+            <sequence>
+                <element name = "account" type = "bnc:accountType"
+                             maxOccurs = "unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+
+</schema>
