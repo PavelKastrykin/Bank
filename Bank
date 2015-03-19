@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <bnc:bank xmlns:bnc="http://www.pavel.com/bank"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.pavel.com/bank BankXSD.xsd">
-    <account IBAN = "US29 NWBK 6016 1331 9268 19" >
+        xsi:schemaLocation="http://www.pavel.com/bank Bank.xsd">
+
+    <account IBAN = "US29NWBK60161331926819" >
         <nameOfBank>Bank of America</nameOfBank>
         <country>USA</country>
         <typeOfAccount>deposit</typeOfAccount>
@@ -12,17 +13,17 @@
         <annualProfit>5</annualProfit>
         <term>20</term>
     </account>
-    <account IBAN = "DE89 3704 0044 0532 0130 00" >
+    <account IBAN = "DE89370400440532013000" >
         <nameOfBank>Commerzbank</nameOfBank>
         <country>Germany</country>
         <typeOfAccount>demand</typeOfAccount>
         <depositor>Hansi Kuersch</depositor>
-        <accountID>1523654785921</accountID>
+        <accountID>1523614785921</accountID>
         <amount>250000</amount>
         <annualProfit>4.5</annualProfit>
         <term>7</term>
     </account>
-    <account IBAN = "KZ75 125K ZT10 0130 0335" >
+    <account IBAN = "KZ75125KZT1001300335" >
         <nameOfBank>KAZKOM</nameOfBank>
         <country>Kazakhstan</country>
         <typeOfAccount>checking</typeOfAccount>
@@ -32,17 +33,17 @@
         <annualProfit>13</annualProfit>
         <term>12</term>
     </account>
-    <account IBAN = "NL91 ABNA 0417 1643 00" >
+    <account IBAN = "NL91ABNA0417164300" >
         <nameOfBank>ABN AMRO</nameOfBank>
         <country>Netherlands</country>
         <typeOfAccount>saving</typeOfAccount>
         <depositor>Floor Jansen</depositor>
-        <accountID>1532486985217</accountID>
+        <accountID>1532486985211</accountID>
         <amount>50000</amount>
         <annualProfit>8</annualProfit>
         <term>5</term>
     </account>
-    <account IBAN = "UA85 3996 2200 0000 0260 0123 3566 1" >
+    <account IBAN = "UA853996220000000260012335661" >
         <nameOfBank>Privatbank</nameOfBank>
         <country>Ukraine</country>
         <typeOfAccount>accumulating</typeOfAccount>
@@ -52,7 +53,7 @@
         <annualProfit>22</annualProfit>
         <term>3</term>
     </account>
-    <account IBAN = "SE45 5000 0000 0583 9825 7466" >
+    <account IBAN = "SE4550000000058398257466" >
         <nameOfBank>Swedbank</nameOfBank>
         <country>Sweden</country>
         <typeOfAccount>metal</typeOfAccount>
